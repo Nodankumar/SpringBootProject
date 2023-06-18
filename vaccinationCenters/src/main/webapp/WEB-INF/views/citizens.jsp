@@ -34,7 +34,7 @@ table tr td {
 		<tr>
 			<td><a href="displayCitizens">Citizens</a></td>
 			<td><a href="displayAllCenters">Vaccination Centers</a></td>
-			<td><a href="">Log Out</a></td>
+			<td><a href="logout">Log Out</a></td>
 			<td>Welcome, admin</td>
 		</tr>
 	</table>

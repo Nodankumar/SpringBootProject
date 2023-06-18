@@ -44,6 +44,14 @@ td h3{
 							${vc.city == 'Warangal' ? 'selected' : ''}></option>
 						<option value="Hyderabad" label="Hyderabad"
 							${vc.city == 'Hyderabad' ? 'selected' : ''}></option>
+						<option value="Mulugu" label="Mulugu"
+							${vc.city == 'Mulugu' ? 'selected' : ''}></option>
+						<option value="Mumbai" label="Mumbai"
+							${vc.city == 'Mumbai' ? 'selected' : ''}></option>
+						<option value="Pune" label="pune"
+							${vc.city == 'Pune' ? 'selected' : ''}></option>
+						<option value="Bengaluru" label="Bengaluru"
+							${vc.city == 'Bengaluru' ? 'selected' : ''}></option>
 				</select></td>
 			</tr>
 			<tr>
