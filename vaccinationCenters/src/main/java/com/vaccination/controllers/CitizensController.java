@@ -76,7 +76,6 @@ public class CitizensController {
 
 		return "editCitizen";
 	}
-
 	@PostMapping("/updateCitizen")
 	public String updateCitizen(@ModelAttribute("citizen") Citizens updatedCitizen, @RequestParam("id") Long citizenId,
 			@RequestParam("vaccinationCentersId") Long vaccinationCentersId) {
@@ -122,5 +121,4 @@ public class CitizensController {
 		citizensRepository.deleteById(id);
 		return "redirect:/displayCitizens";
 	}
-
 }
